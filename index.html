@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Event Dashboard</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1>🎯Smart Event Dashboard</h1>
+        </header>
+        <main>
+            <div id="box-1">
+                <div id="event-detail">
+
+                    <h4>Add New Event</h4>
+                    <p id="event-title">Event Title :</p>
+                    <input type="text" placeholder="Enter the event title" id="text-event">
+                    <br>
+                    <p>Event Date :</p>
+                    <input type="date" placeholder="Enter the event Date" id="date-event">
+                    <br>
+                    <br>
+                    <label for="gender">Category:</label>
+                    <select name="gender" id="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="Non-Binary">Non-binary</option>
+                        <option value="prefer-not-to-say">prefer-not-say</option>
+                    </select>
+
+                    <br>
+                    <p>Description :</p>
+                    <textarea name="input-box" id="input-box" placeholder="Description" rows="1" cols="30"></textarea>
+                </div>
+                <button id="addBtn">Add Event</button>
+            </div>
+            <div id="inputBox2">
+                <div id="eventList"></div>
+
+                <button id="clearEvents">Clear All Events</button>
+                <button id="addSample">Add Sample Events</button>
+
+                
+
+                <div id="inputBox"></div>
+                <div id="list"></div>
+                <form id="eventForm">
+                    <input id="title" />
+                    <input id="date" />
+                    <select id="category"></select>
+                    <textarea id="description"></textarea>
+                </form>
+            </div>
+
+
+        </main>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

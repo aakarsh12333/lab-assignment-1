@@ -30,7 +30,7 @@ Click delete button to remove it
 ☁️ Cloud storage (Firebase, etc.)
 🧑‍💻 Author
 
-Your Name
+aakarsh singh
 
 📌 How to Run
 Download or clone the repository
